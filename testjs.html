@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <button onclick="submitData(event)">ส่งข้อมูล</button>
+
+  <script>
+    function submitData (event) {
+      let thisButtonDOM = event.target
+      thisButtonDOM.style.borderColor = 'blue'
+      console.log(thisButtonDOM.style.borderColor)
+    }
+  </script>
+</body>
+</html>
