@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- ส่วนที่ไม่แสดงออกไปในหน้าจอของ Browser -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document 2</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- ส่วนที่แสดงออกไปในหน้าจอของ Browser -->
+
+  <div class="container">
+    <!-- 3. form -->
+    <div class="header form-input">
+      Register form
+    </div>
+    <div class="flex form-input">
+      <div class="header-form">ชื่อจริง</div>
+      <input class="form" name="firstname" type="text">
+    </div>
+    <div class="flex form-input">
+      <div class="header-form">นามสกุล </div>
+      <input class="form" name="lastname" type="text">
+    </div>
+    <div class="flex form-input">
+      <div class="header-form">อายุ</div>
+      <input class="form" name="age" type="number" min="0" max="100">
+    </div>
+    <div class="flex gender form-input">
+      <div class="header-form">เพศ</div>
+      <div class="flex">
+        <div>
+          <input name="gender" type="radio" value="ชาย"> ชาย
+        </div>
+        <div>
+          <input name="gender" type="radio" value="หญิง"> หญิง
+        </div>
+        <div>
+          <input name="gender" type="radio" value="ไม่ระบุ"> ไม่ระบุ
+        </div>
+      </div>
+    </div>
+    <div class="form-input">
+      สิ่งที่สนใจ
+      <div>
+        <input name="interest" type="checkbox" value="หนังสือ"> หนังสือ
+      </div>
+      <div>
+        <input name="interest" type="checkbox" value="วิดีโอเกม"> วิดีโอเกม
+      </div>
+      <div>
+        <input name="interest" type="checkbox" value="การเมือง"> การเมือง
+      </div>
+    </div>
+    <div class="form-input">
+      คำอธิบายตัวตนเพิ่มเติม
+      <div>
+        <textarea name="description"></textarea>
+      </div>
+    </div>
+    <div class="form-input center">
+      <a href="https://shopee.com">T&C</a>
+    </div>
+    <div class="center">
+      <button onclick="submitData()" class="button">ส่งข้อมูล</button>
+    </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
