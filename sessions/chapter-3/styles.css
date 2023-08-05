@@ -1,0 +1,55 @@
+/* สิ่งที่อยู่ตรงนี้ จะมีไว้แค่ให้ dev อ่าน */
+/* 1. แต่งใคร ? (id, class, DOM) 2. แต่งอะไร ? */
+@font-face {
+  font-family: "kanit";
+  src: url("./Kanit/Kanit-Regular.ttf");
+}
+
+body {
+  font-family: "kanit";
+}
+
+.container {
+  width: 100%;
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: azure;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.header {
+  font-size: 30px;
+  text-align: center;
+}
+
+.header-form {
+  width: 140px;
+}
+
+.flex {
+  display: flex;
+}
+
+.form-input {
+  margin-bottom: 10px;
+}
+
+.center {
+  text-align: center;
+}
+
+input.form,
+textarea {
+  border: 1px gainsboro solid;
+  width: 100%;
+}
+
+.button {
+  border: 0;
+  width: 50%;
+  height: 40px;
+  background-color: #2962ff;
+  color: white;
+}
