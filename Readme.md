@@ -20,8 +20,8 @@ https://docs.mikelopster.dev/c/web101/intro
 | ตอนที่ 6 | Javascript - DOM and Event |  [![dom-event-javascript](https://img.youtube.com/vi/XjK3cRbjblw/mqdefault.jpg)](https://youtu.be/XjK3cRbjblw) [ดู video](https://youtu.be/XjK3cRbjblw) | done
 | ตอนที่ 7 | Nodejs - Introduction Backend | [![nodejs-backend](https://img.youtube.com/vi/sn1UUN4ADFE/mqdefault.jpg)](https://youtu.be/sn1UUN4ADFE) [ดู video](https://youtu.be/sn1UUN4ADFE) | done
 | ตอนที่ 8 | Mysql - Basic database | [![mysql-database](https://img.youtube.com/vi/ofWRV8dpVqo/mqdefault.jpg)](https://youtu.be/ofWRV8dpVqo) [ดู video](https://youtu.be/ofWRV8dpVqo) | done
-| ตอนที่ 9 | Express - REST API
-| ตอนที่ 10 | Express - API connect Mysql
+| ตอนที่ 9 | Express - REST API | [![express-rest-api](https://img.youtube.com/vi/C5kv44Srv7w/mqdefault.jpg)](https://youtu.be/C5kv44Srv7w) [ดู video](https://youtu.be/C5kv44Srv7w) | done
+| ตอนที่ 10 | Express - API connect Mysql | [![api-connect-mysql](https://img.youtube.com/vi/Gjwnucvv3iY/mqdefault.jpg)](https://youtu.be/Gjwnucvv3iY) [ดู video](https://youtu.be/Gjwnucvv3iY) | done
 | ตอนที่ 11 | Javascript - Integration API
 | ตอนที่ 12 | What's next : Git, Web framework, Web deployment
 
